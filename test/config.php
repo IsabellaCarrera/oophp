@@ -17,6 +17,8 @@ define("ANAX_INSTALL_PATH", realpath(__DIR__ . "/.."));
  */
 require ANAX_INSTALL_PATH . "/vendor/autoload.php";
 
+require __DIR__ . "/../vendor/autoload.php";
+
 
 
 /**
